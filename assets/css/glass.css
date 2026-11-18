@@ -1,0 +1,10 @@
+/* Liquid glass surface + shimmer skeleton */
+.glass{position:relative;background:linear-gradient(135deg,rgba(255,255,255,.17),rgba(255,255,255,.05));
+ -webkit-backdrop-filter:blur(22px) saturate(180%);backdrop-filter:blur(22px) saturate(180%);border:1px solid var(--stroke);
+ box-shadow:inset 0 1px 0 rgba(255,255,255,.5),inset 0 -1px 0 rgba(255,255,255,.08),inset 0 0 26px rgba(255,255,255,.05),0 14px 40px rgba(2,10,30,.38)}
+.glass::before{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;background:radial-gradient(110% 70% at 8% 0%,rgba(255,255,255,.24),transparent 46%),radial-gradient(70% 60% at 100% 100%,rgba(111,214,234,.14),transparent 60%)}
+.sk{position:relative;overflow:hidden;background:rgba(255,255,255,.09);border-radius:var(--r-md)}
+.sk::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,transparent,rgba(255,255,255,.26),transparent);transform:translateX(-100%);animation:shimmer 1.4s infinite}
+[dir=rtl] .sk::after{animation-direction:reverse}
+@keyframes shimmer{to{transform:translateX(100%)}}
+.sk-card{height:112px}.tile-sk{height:160px;border-radius:var(--r-lg)}.dept-sk{height:300px;border-radius:var(--r-lg)}.team-sk{height:230px;border-radius:var(--r-lg)}
