@@ -1,4 +1,6 @@
 window.CG=window.CG||{};
+/* The faculty's three study programs (shown in the home-page stats). */
+CG.programs=[{ar:'عربي',en:'Arabic'},{ar:'إنجليزي',en:'English'},{ar:'فرنسي',en:'French'}];
 CG.departments=[
 {id:'foreign-trade',icon:'ship',name:{ar:'التجارة الخارجية',en:'Foreign Trade'},
  about:{ar:'يركّز القسم على التجارة الدولية وإجراءات الاستيراد والتصدير والتخليص الجمركي.',en:'The department focuses on international trade, import and export operations, and customs clearance procedures.'},
