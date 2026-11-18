@@ -14,7 +14,7 @@ D('tile.halls','ابحث عن أي قاعة أو معمل وتعرّف على م
 D('tile.map','مرّر على أي مبنى لتعرف تفاصيله.','Hover any building to see its details.');
 D('tile.about','أقسام الكلية ومميزاتها ومجالات العمل.','Departments, their advantages, and career paths.');
 D('tile.team','الأشخاص وراء المشروع.','The people behind the project.');
-D('stat.b','مبنى ومرفق','buildings & facilities');D('stat.s','قاعة ومعمل','halls & labs');D('stat.d','قسم أكاديمي','departments');
+D('stat.b','مبنى ومرفق','buildings & facilities');D('stat.s','قاعة ومعمل','halls & labs');D('stat.d','شعب دراسية: عربي وإنجليزي وفرنسي','programs: Arabic, English & French');
 D('halls.title','القاعات والمعامل','Halls & Labs');
 D('halls.sub','اكتب اسم المكان أو رقمه وسنخبرك أين يوجد.','Type a place name or number and we’ll tell you where it is.');
 D('halls.ph','مدرج 3، حجرة 202، Lab 4…','Amphitheater 3, Room 202, Lab 4…');D('halls.aria','ابحث عن قاعة','Search for a hall');
