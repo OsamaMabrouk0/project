@@ -13,4 +13,4 @@ assets/images/          campus-map.png · faculty-logo.png
 data/                   translations · buildings (map coordinates) · spaces (from Excel) · departments · team
 data/source/            original Excel file
 ```
-Edit content in `data/`. Map pins use pixel coordinates (x, y) on the 1280×720 map image.
+Edit content in `data/` (department info, careers and the MIS study plan live in `data/departments.js`; all UI text is in `data/translations.js`). Map pins use pixel coordinates (x, y) on the 1280×720 map image.

@@ -12,7 +12,7 @@ D('home.btnMap','استكشف الخريطة','Explore the map');D('home.btnHall
 D('home.preview','افتح الخريطة التفاعلية','Open the interactive map');
 D('tile.halls','ابحث عن أي قاعة أو معمل وتعرّف على مكانها فورًا.','Find any hall or lab and see exactly where it is.');
 D('tile.map','مرّر على أي مبنى لتعرف تفاصيله.','Hover any building to see its details.');
-D('tile.about','أقسام الكلية ومميزاتها ومجالات العمل.','Departments, their advantages, and career paths.');
+D('tile.about','الأقسام الخمسة، وما تدرسه، وأين يعمل الخريجون.','The five departments, what you study, and where graduates work.');
 D('tile.team','الأشخاص وراء المشروع.','The people behind the project.');
 D('stat.b','مبنى ومرفق','buildings & facilities');D('stat.s','قاعة ومعمل','halls & labs');D('stat.d','شعب دراسية: عربي وإنجليزي وفرنسي','programs: Arabic, English & French');
 D('halls.title','القاعات والمعامل','Halls & Labs');
@@ -35,8 +35,13 @@ D('map.list','المباني والمرافق','Buildings & facilities');D('map.
 D('map.errT','تعذّر تحميل الخريطة','Couldn’t load the map');D('map.err','تأكد من اتصالك بالإنترنت ثم أعد المحاولة.','Check your connection and try again.');
 D('kind.building','مبنى','Building');D('kind.gate','بوابة','Gate');D('kind.facility','مرفق','Facility');D('card.close','إغلاق','Close');
 D('about.title','نبذة عن الكلية','About the Faculty');
-D('about.intro','تضم كلية الأعمال بجامعة الإسكندرية أقسامًا أكاديمية متنوعة تؤهّل الطلاب لسوق العمل. هنا تعريف موجز بكل قسم ومميزاته والمجالات التي يعمل بها خريجوه.','The Faculty of Business at Alexandria University offers diverse academic departments that prepare students for the job market. Here is a short overview of each department, its advantages, and where its graduates work.');
-D('about.depts','الأقسام الأكاديمية','Academic departments');D('about.adv','المميزات','Advantages');D('about.jobs','مجالات العمل','Career opportunities');
+D('about.intro','تضم الكلية خمسة أقسام علمية تؤهّل الطلاب لسوق العمل في المحاسبة والإدارة والمالية والبيانات والتكنولوجيا. تعرّف هنا على كل قسم: ماذا ستدرس فيه، وما مميزاته، وأين يعمل خريجوه.','The faculty has five academic departments that prepare students for careers in accounting, management, finance, data and technology. Explore each department: what you will study, its advantages, and where its graduates work.');
+D('about.depts','الأقسام الأكاديمية','Academic departments');D('about.jump','انتقل إلى قسم','Jump to a department');
+D('about.adv','المميزات','Advantages');D('about.jobs','مجالات العمل','Career opportunities');D('about.areas','ماذا ستدرس؟','What will you study?');
+D('about.plan','الخطة الدراسية','Study plan');D('about.planNote','المواد التخصصية وغير التخصصية في المستويين الثالث والرابع.','Specialization and non-specialization courses in Levels 3 and 4.');
+D('about.core','مواد التخصص','Specialization courses');D('about.other','مواد خارج التخصص','Non-specialization courses');D('about.hours','{n} ساعة معتمدة','{n} credit hours');
+D('about.f1','أقسام علمية','academic departments');D('about.f2','سنوات دراسية','years of study');D('about.f3','مسمى وظيفي يعمل به الخريجون','career roles your degree can lead to');D('about.f4','شعب: عربي · إنجليزي · فرنسي','programs: Arabic · English · French');
+D('about.note','المعلومات الواردة هنا للتعريف العام، وقد تتغير الخطط الدراسية؛ راجع الكلية للحصول على أحدث لائحة.','This information is a general overview and study plans may change; check with the faculty for the latest bylaws.');
 D('team.title','فريق العمل','The Team');D('team.sub','الأشخاص وراء المشروع.','The people behind the project.');
 D('team.note','ملحوظة: يتغيّر ترتيب الأسماء بشكل عشوائي في كل مرة تفتح فيها الصفحة، ولا يعكس أي أفضلية بين أعضاء الفريق.','Note: the order of names is randomized every time you open this page and does not reflect any ranking among team members.');
 D('footer.txt','كلية الأعمال — جامعة الإسكندرية © 2026','Faculty of Business — Alexandria University © 2026');
